@@ -1,0 +1,70 @@
+.coluna {
+    border: 1px solid black
+}
+
+.cabecalho {
+    height: 400px;
+    width: auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    background-image: url("../images/back.jpg");
+    background-size: cover;
+}
+
+.corpo {
+    min-height: 180px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url("https://th.bing.com/th/id/R.cdcc665c9adff4bca095eeda4f468e39?rik=9rgKSjsdlznLOA&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fd%2f1%2f7%2f30099.jpg&ehk=Yu3WIfdKmzrJihcuK65nAn3HOBY55MDMTM2bmrP0dUI%3d&risl=&pid=ImgRaw&r=0");
+}
+
+.rodape {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 0;
+    
+}
+
+.menu {
+    width: 100%;
+    margin-top: 10px;
+    position: absolute;
+    
+    
+}
+
+.itemMenu {
+    float: left;
+    width: 11.5%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: yellow;
+}
+.itemMenu2 {
+    float: right;
+    width: 8%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-top: 400px;
+    text-align: center;
+    color: yellow;
+    position: absolute;
+}
+
+.itemMenu:hover {
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+}
+.itemMenu2:hover {
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+}
