@@ -29,7 +29,7 @@ function App() {
     },
     {
       path: "/filmes",
-      element: <Filmes setLogin={setLogin}/>,
+      element: <Filmes />,
     },
     {
       path: "/starships",
