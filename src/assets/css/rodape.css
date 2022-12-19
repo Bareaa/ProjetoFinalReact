@@ -1,8 +1,9 @@
-.rodapenis{
+.rodapePai{
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 70px;
+    
 }
 .rodape {
     position: absolute;
@@ -26,4 +27,8 @@
     color: rgb(190, 190, 2);
     position: absolute;
     bottom: 15px;
+}
+.logoff:hover {
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
 }

@@ -47,10 +47,7 @@
     cursor: pointer;
     background-color: rgb(255, 0, 0);
 }
-.itemMenu2:hover {
-    cursor: pointer;
-    background-color: rgb(255, 0, 0);
-}
+
 .duvidas{
     color: yellow;
     text-align: left;

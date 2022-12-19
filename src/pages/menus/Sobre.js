@@ -1,43 +1,40 @@
-import { Grid } from '@mui/material'
-import React from 'react'
-import Cabecalho from '../../components/Cabecalho'
-import Rodape from '../../components/Rodape'
-
-
-export default function Menu(props) {
-    const logoff = () => {
-        props.setLogin(false)
-    }
+import React from "react";
+import DefaultPage from "../components/DefaultPage";
+import "../assets/css/sobre.css";
+import diego from "../assets/images/diego.png";
+import linkedin from "../assets/images/linkedin.png";
+import logo from "../assets/images/logo.png";
+import github from "../assets/images/github.png";
+const Sobre = () => {
   return (
-    
-    <>
-
-      <Grid container style={{ padding: 10}}>
-        <Grid item md={12} xs={12} sm={12}>
-          <Cabecalho />
-        </Grid>
-        <Grid item md={12} xs={12} sm={12}>
-          
-          <div className='menu' style={{backgroundImage: "URL(https://th.bing.com/th/id/R.cdcc665c9adff4bca095eeda4f468e39?rik=9rgKSjsdlznLOA&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fd%2f1%2f7%2f30099.jpg&ehk=Yu3WIfdKmzrJihcuK65nAn3HOBY55MDMTM2bmrP0dUI%3d&risl=&pid=ImgRaw&r=0)"}}>
-            <div className='itemMenu' style={{color:"yellow"}}> <a href='sobre'> Sobre </a></div>
-            <div className='itemMenu' style={{color:"yellow"}}> <a href='menu'> Home </a> </div>
-                
+    <div className="sobre-page">
+      <DefaultPage page="SOBRE" />
+      <div className="sobre">
+        <img className="criador" src={diego} alt=""></img>
+        <div className="buttons">
+          <h3>
+            Projeto Desenvolvido para a Disciplina de Tópicos Especiais em
+            Programação.
+          </h3>
+          <p>
+            Tecnologias Utilizadas: React, Firebase, RestAPI com Axios, Material
+            UI, Css, Javascript e HTML5.
+          </p>
+          <div className="links">
+            <a href="https://www.linkedin.com/in/diego-trevisan-cc/">
+              <img className="button" src={linkedin} alt="" />
+            </a>
+            <a href="https://diegotrevisan.com">
+              <img className="button" src={logo} alt="" />
+            </a>
+            <a href="https://github.com/diegotrevisancc">
+              <img className="button" src={github} alt="" />
+            </a>
           </div>
-          <Grid>
-          <div className='itemMenu2' onClick={logoff}>
-                        Logoff
-                    </div>
-          </Grid>
-          <div className='corpo'>
-            <br />
-            Corpo
-          </div>
-        </Grid>
-        <Grid item md={12} xs={12} sm={12}>
-          <Rodape />
-        </Grid>
-      </Grid>
-    </>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-  )
-}
+export default Sobre;

@@ -22,7 +22,7 @@ const Filmes = () => {
     <>
       <div className="conteudoAll">
         <Cabecalho />
-        <div className="conteudo">
+        <div>
           <div className="filmes">
             {dados.map((item, key) => (
               <div className="filme" key={key}>

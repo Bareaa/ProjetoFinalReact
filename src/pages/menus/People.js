@@ -3,7 +3,7 @@ import Cabecalho from '../../components/Cabecalho'
 import Rodape from '../../components/Rodape'
 import axios from "axios";
 import { useState, useLayoutEffect } from "react";
-import "../../assets/css/people.css";
+import "../../assets/css/InfoPages.css";
 
 const People = () => {
   const [dados, setDados] = useState([]);
@@ -23,9 +23,9 @@ const People = () => {
     <div className="conteudoAll">
       <Cabecalho />
       <div>
-        <div className="people">
+        <div className="content">
           {dados.map((item, key) => (
-            <div className="person" key={key}>
+            <div className="contents" key={key}>
               <h1>{item.name}</h1>
               <p>Ano de Nascimento: {item.birth_year}</p>
               <p>Cor dos olhos: {item.eye_color}</p>

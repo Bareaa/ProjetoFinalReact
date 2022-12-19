@@ -9,7 +9,7 @@ export default function Rodape() {
     navigate("/")}
     return (
         <>
-        <div className='rodapenis'>
+        <div className='rodapePai'>
              <div className='rodape' align='center'>
                 Fernando Rodrigues Junior RA:1121913 | Guilherme Barea RA:1127375
                 <br />
