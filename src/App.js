@@ -35,7 +35,7 @@ function App() {
     },
     {
       path: "/menu",
-      element: login ? <Menu /> : <Login verificarLogin={verificarLogin} />,
+      element: <Menu />,
     },
     {
       path: "/voltar",
