@@ -19,7 +19,7 @@ const Starships = () => {
       });
   }, []);
   return (
-    <div className="starship-page">
+    <div className="conteudoAll">
       <Cabecalho />
       <div className="conteudo container">
         <div className="starships">
@@ -34,6 +34,7 @@ const Starships = () => {
           ))}
         </div>
       </div>
+      <Rodape />
     </div>
   );
 };

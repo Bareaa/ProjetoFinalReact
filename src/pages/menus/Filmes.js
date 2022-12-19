@@ -20,7 +20,7 @@ const Filmes = () => {
   }, []);
   return (
     <>
-      <div className="penis">
+      <div className="conteudoAll">
         <Cabecalho />
         <div className="conteudo">
           <div className="filmes">
@@ -32,6 +32,7 @@ const Filmes = () => {
                 <h4>Diretor: {item.director}</h4>
                 <h4>Produtor: {item.producer}</h4>
                 <p>{item.opening_crawl}</p>    
+                <hr/>
               </div>
             ))}
           </div>

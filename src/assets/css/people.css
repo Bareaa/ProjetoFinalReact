@@ -5,7 +5,7 @@
      
 }
 
-.starships {
+.people {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -14,27 +14,26 @@
     
 }
 
-.starship {
+.person {
     text-align: center;
-    color: var(--yellow-wars);
     font-family: "Arial", monospace;
     background-color: rgb(32, 32, 32);
+    color: yellow;
     margin: 10px;
     padding: 20px, 20px, 20px, 20px;
     border-radius: 10px;
     
 }
-.starship h1{
+.person h1{
     font-size: 45px;
     font-style: italic;
     color: rgb(209, 112, 0);
 }
 @media screen and (max-width: 730px) {
-    .starships {
+    .person {
         display: flex;
         flex-flow: column;
         padding: 0;
         
     }
 }
-  

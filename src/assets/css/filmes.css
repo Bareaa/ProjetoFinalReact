@@ -1,4 +1,4 @@
-.penis{
+.conteudoAll{
   padding-bottom: 70px;
   position: relative;
   min-height: 100%;
@@ -17,7 +17,7 @@
   flex-flow: column;
   padding: 10px 10px 10px;
   transition: 1.5s;
-  font-family: "Chivo Mono", monospace;
+  font-family: "Arial", monospace;
 }
 
 

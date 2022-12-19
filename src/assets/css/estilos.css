@@ -4,10 +4,7 @@
 
 .cabecalho {
     height: 400px;
-    width: 100%;
-    text-align: center;
-    background-color: white;
-    border-radius: 10px;
+    width: 1900px;
     padding: 10px;
     background-image: url("../images/back.jpg");
     background-size: cover;
@@ -22,7 +19,6 @@
     margin-top: 10px;
     margin-bottom: 10px;
     background-image: url("../images/fundo.jpg");
-    width: 100%;
 }
 
 
