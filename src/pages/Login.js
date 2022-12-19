@@ -1,17 +1,50 @@
-import { Button, TextField } from '@mui/material';
+// import { async } from '@firebase/util';
+// import { CheckBox } from '@mui/icons-material';
+import { Button, Checkbox, FormControlLabel, FormGroup, TextField } from '@mui/material';
 import Grid from '@mui/material/Grid';
-import React from 'react'
+import React, { useLayoutEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import login from './../services/AtenticadorService'
 
 export default function Login(props) {
   const navigate = useNavigate();
 
-  const validar = () => {
-    props.setLogin(true)
-    navigate("/menu")
+  const [lembrarme, setLembrarme] = useState(false)
+  const [email, setEmail] = useState("")
+  const [password, setPassword] = useState("")
+
+  useLayoutEffect(() => {
+    if (localStorage.getItem("email")) {
+      setEmail(localStorage.getItem("email"))
+      setPassword(localStorage.getItem("password"))
+      setLembrarme(true)
+    }
+  }, [])
+
+  const validar = async() => {
+      try{
+        await login(email,password)
+        sessionStorage.setItem("login", true)
+        props.verificarLogin()
+        navigate("/menu")
+      } catch (error){
+        alert(error)
+      }
+      
 
   }
 
+  const armazenarEmailSenha = () => {
+    setLembrarme(!lembrarme)
+    if (!lembrarme) {
+      localStorage.setItem("email", email)
+      localStorage.setItem("password", password)
+    } else {
+      localStorage.removeItem("email")
+      localStorage.removeItem("password")
+    }
+
+  }
 
   return (
     <Grid container style={{ padding: 10 }}>
@@ -30,6 +63,8 @@ export default function Login(props) {
             fullWidth={true}
             variant="standard"
             type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
           />
         </div>
         <div>
@@ -38,7 +73,14 @@ export default function Login(props) {
             fullWidth={true}
             variant="standard"
             type="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
           />
+        </div>
+        <div>
+        <FormGroup>
+          <FormControlLabel control={<Checkbox defaultChecked checked={lembrarme} onChange={armazenarEmailSenha}/>} label="Lembrar-me" />
+        </FormGroup>
         </div>
         <div style={{ marginTop: 10, textAlign: "center"}}>
           <Button

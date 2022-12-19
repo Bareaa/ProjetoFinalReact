@@ -68,3 +68,10 @@
     cursor: pointer;
     background-color: rgb(255, 0, 0);
 }
+.duvidas{
+    color: yellow;
+    text-align: left;
+    font-size: 40px;
+    border: 1px solid yellow;
+    margin-top: 20px;
+}
