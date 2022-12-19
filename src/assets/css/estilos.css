@@ -4,7 +4,7 @@
 
 .cabecalho {
     height: 400px;
-    width: auto;
+    width: 100%;
     text-align: center;
     background-color: white;
     border-radius: 10px;
@@ -14,6 +14,7 @@
 }
 
 .corpo {
+    color: rgb(221, 221, 2);
     min-height: 180px;
     background-color: white;
     border-radius: 10px;
@@ -21,15 +22,9 @@
     margin-top: 10px;
     margin-bottom: 10px;
     background-image: url("../images/fundo.jpg");
+    width: 100%;
 }
 
-.rodape {
-    text-align: center;
-    font-size: 15px;
-    color: white;
-    margin-bottom: 0;
-    
-}
 
 .menu {
     width: 100%;
@@ -49,18 +44,8 @@
     text-align: center;
     color: rgb(221, 221, 2);
     background-color: rgb(32, 32, 32);
-    background-image: url("../images/fundo.jpg");
 }
-.itemMenu2 {
-    float: right;
-    width: 8%;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 10px;
-    margin-top: 400px;
-    text-align: center;
-    color: rgb(190, 190, 2);
-    position: absolute;
-}
+
 
 .itemMenu:hover {
     cursor: pointer;

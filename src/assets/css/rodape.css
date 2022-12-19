@@ -1,0 +1,28 @@
+.rodapenis{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+}
+.rodape {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(221, 221, 2);;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.logoff{
+    float: right;
+    width: 8%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 400px;
+    text-align: center;
+    color: rgb(190, 190, 2);
+    position: absolute;
+    bottom: 15px;
+}

@@ -10,8 +10,7 @@ export default function MenuOpcoes() {
              <div to={'/planets'}><div className='itemMenu' style={{color:"yellow"}}>V - PLANETS</div></div>
              <div to={'/species'}><div className='itemMenu' style={{color:"yellow"}}>VI - SPECIES</div></div>
              <div to={'/duvidas'}><div className='itemMenu' style={{color:"yellow"}}>VII - DÚVIDAS</div></div>
-             <div to={'/sobre'}><div className='itemMenu' style={{color:"yellow"}}>VIII - SOBRE</div></div>
-                
+             <div to={'/sobre'}><div className='itemMenu' style={{color:"yellow"}}>VIII - SOBRE</div></div>        
           </div>
     )
 }

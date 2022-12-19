@@ -4,7 +4,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Login from "./pages/Login";
-import Menu from "./pages/Menu";
+import Menu from "./pages/Main";
 import Filmes from "./pages/menus/Filmes";
 import Starships from "./pages/menus/Starships";
 import People from "./pages/menus/People";
@@ -16,8 +16,6 @@ import './assets/css/estilos.css'
 // import * as Firebase from './services/FirebaseConnect'
 // import axios from 'axios';
 // import {useEffect} from 'react';
-
-
 
 
 function App() {

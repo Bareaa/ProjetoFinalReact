@@ -1,0 +1,27 @@
+.penis{
+  padding-bottom: 70px;
+  position: relative;
+  min-height: 100%;
+}
+
+.conteudo {
+  background-color: unset;
+  color: yellow;
+}
+
+.filmes {
+  padding: 50px 0;
+}
+
+.filme {
+  flex-flow: column;
+  padding: 10px 10px 10px;
+  transition: 1.5s;
+  font-family: "Chivo Mono", monospace;
+}
+
+
+
+h1, h2, h3 {
+  text-align: center;
+}
