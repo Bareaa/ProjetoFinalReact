@@ -1,0 +1,55 @@
+.conteudoAll {
+    padding-bottom: 70px;
+    position: relative;
+    min-height: 100%;  
+  }
+  
+  .sobre {
+    padding: 10vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    text-align: center;
+    
+  }
+  .devs {
+    height: 350px;
+    border-radius: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+ 
+  .links {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .button {
+    width: 32px;
+    height: 32px;
+    transition: 0.5s;
+  }
+  
+
+h1{
+    font-size: 45px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+h3{
+    color: white;
+}
+@media screen and (max-width: 730px) {
+    .devs {
+        display: flex;
+        flex-flow: column;
+        padding: 0;
+        
+    }
+}
