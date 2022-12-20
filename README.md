@@ -1,8 +1,8 @@
 # Getting Started with Create React App
-Alunos: Fernando Rodrigues Junior RA:1121913 | Guilherme Barea RA:1127375
-Link do site: https://starwarsprojetofinal.web.app
-Login: mand@lorian.com
-Senha: babycr@zy
+<h3> Alunos: Fernando Rodrigues Junior RA:1121913 | Guilherme Barea RA:1127375 <h3/>
+<h4> Link do site: https://starwarsprojetofinal.web.app <h4/>
+<h4> Login: mand@lorian.com <h4/>
+<h4> Senha: babycr@zy <h4/>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
