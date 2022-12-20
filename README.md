@@ -1,11 +1,11 @@
 <h1> Projeto Final em Tópicos Especiais em Programação (REACT)<h1/>
 
-📌<h4> Alunos: Fernando Rodrigues Junior RA:1121913 | Guilherme Barea RA:1127375 <h4/>
+<h4> 📌 Alunos: Fernando Rodrigues Junior RA:1121913 | Guilherme Barea RA:1127375 <h4/>
   
-📌<h4> Link do site: https://starwarsprojetofinal.web.app <h4/>
+<h4> 📌 Link do site: https://starwarsprojetofinal.web.app <h4/>
   
-📌<h4> Login: mand@lorian.com <h4/>
-📌<h4> Senha: babycr@zy <h4/>  
+<h4> 📌 Login: mand@lorian.com <h4/>
+<h4> 📌 Senha: babycr@zy <h4/>  
 
 
 
