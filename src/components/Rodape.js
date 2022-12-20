@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 
 
 
+
 export default function Rodape() {
 
     const navigate = useNavigate();
@@ -25,6 +26,7 @@ export default function Rodape() {
             <div className='logoff' onClick={logoff}>
                 Logoff
             </div>
+            
         </div>
             
         </>

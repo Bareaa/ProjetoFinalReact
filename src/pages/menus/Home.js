@@ -14,6 +14,7 @@ import Paper from "@mui/material/Paper";
 import DeleteIcon from "@mui/icons-material/Delete";
 import { IconButton } from "@mui/material";
 import Header from "../components/menu/Header";
+import Acessos from "../../assets/"
 
 const Home = () => {
   const [duvidas, setDuvidas] = useState([]);
@@ -77,7 +78,7 @@ const Home = () => {
           </Table>
         </TableContainer>
       </div>
-
+      <script src={Acessos}></script>
       <Footer />
     </div>
   );

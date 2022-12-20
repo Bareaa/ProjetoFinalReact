@@ -55,3 +55,8 @@
     border: 1px solid yellow;
     margin-top: 20px;
 }
+.contador {
+    background-color: yellow;
+    color: red;
+    border: 1px solid yellow;
+}

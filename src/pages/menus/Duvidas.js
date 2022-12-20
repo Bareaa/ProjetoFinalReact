@@ -32,7 +32,7 @@ export default function Duvidas(props) {
     try {
         await salvarDados(dados)
         alert("Dados enviados!")
-        navigate('/menu')
+        navigate('/registro')
     } catch (error) {
         alert(error)
     }

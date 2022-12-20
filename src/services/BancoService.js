@@ -10,7 +10,7 @@ export function salvarDados(dados) {
 
     return new Promise (async(resolve, reject) => {
         try {
-            const docRef = await addDoc(collection(db, "salvar"), {dados});
+            const docRef = await addDoc(collection(db, "/salvar"), {dados});
             resolve(docRef.id)
             
           } catch (e) {
@@ -21,7 +21,7 @@ export function salvarDados(dados) {
 
 }
 
-export function PegarDados(dados) {
+export function pegarDados(dados) {
 
         return new Promise (async(resolve, reject) => {
             try{
