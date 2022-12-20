@@ -4,7 +4,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Login from "./pages/Login";
-import Menu from "./pages/Main";
+import Menu from "./pages/menus/Main";
 import Filmes from "./pages/menus/Filmes";
 import Starships from "./pages/menus/Starships";
 import People from "./pages/menus/People";
@@ -13,6 +13,7 @@ import Species from "./pages/menus/Species";
 import Duvidas from "./pages/menus/Duvidas";
 import Sobre from "./pages/menus/Sobre";
 import './assets/css/estilos.css'
+import Registro from "./pages/menus/Registro";
 // import * as Firebase from './services/FirebaseConnect'
 // import axios from 'axios';
 // import {useEffect} from 'react';
@@ -67,6 +68,11 @@ function App() {
       path: "/planets",
       element: <Planets setLogin={setLogin}/> 
     },
+    {
+      path: "/registro",
+      element: <Registro setLogin={setLogin}/> 
+    },
+
 
   ]);
 

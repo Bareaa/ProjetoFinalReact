@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../assets/css/estilos.css';
 
-
 export default function Menu(props) {
   
   return (
@@ -15,6 +14,7 @@ export default function Menu(props) {
         <Link to={'/species'}><div className='itemMenu' >VI - SPECIES</div></Link>
         <Link to={'/duvidas'}><div className='itemMenu' >VII - DÚVIDAS</div></Link>
         <Link to={'/sobre'}><div className='itemMenu' >VIII - SOBRE</div></Link>
+        <Link to={'/registro'}><div className='itemMenu'>IX - REGISTRO</div></Link> 
     </div>
 
   )

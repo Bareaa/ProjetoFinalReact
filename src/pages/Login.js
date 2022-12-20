@@ -45,6 +45,11 @@ export default function Login(props) {
     }
 
   }
+  const limpar = () => {
+    setEmail('')
+    setPassword('')
+    
+  }
 
   return (
     <Grid container style={{ padding: 10 }}>
@@ -88,7 +93,7 @@ export default function Login(props) {
             style={{ marginRight: 10, color: 'yellow' }}
             onClick={validar}
           >Entrar</Button>
-          <Button variant="outlined" style={{ marginRight: 10,}}>Cancelar</Button>
+          <Button variant="outlined" style={{ marginRight: 10,}}onClick={limpar}>Cancelar</Button>
         </div>
       </Grid>
       <Grid item md={4} xs={12} sm={12}></Grid>
