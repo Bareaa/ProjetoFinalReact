@@ -1,8 +1,11 @@
-#<h1 color="blue> Projeto Final em Tópicos Especiais em Programação (REACT) "<h1/>
-<h3> Alunos: Fernando Rodrigues Junior RA:1121913 | Guilherme Barea RA:1127375 <h3/>
-<h4> Link do site: https://starwarsprojetofinal.web.app <h4/>
-<h4> Login: mand@lorian.com <h4/>
-<h4> Senha: babycr@zy <h4/>
+#<h1> Projeto Final em Tópicos Especiais em Programação (REACT)<h1/>
+<div border= 1px solid 'yellow'>
+    <h3> Alunos: Fernando Rodrigues Junior RA:1121913 | Guilherme Barea RA:1127375 <h3/>
+    <h4> Link do site: https://starwarsprojetofinal.web.app <h4/>
+    <h4> Login: mand@lorian.com <h4/>
+    <h4> Senha: babycr@zy <h4/>  
+<div/>
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
