@@ -1,0 +1,40 @@
+.conteudoAll{
+    padding-bottom: 70px;
+    position: relative;
+    min-height: 100%;   
+     
+}
+
+.starships {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 70px;
+    background-image: url("../images/fundo.jpg");
+    
+}
+
+.starship {
+    text-align: center;
+    color: var(--yellow-wars);
+    font-family: "Arial", monospace;
+    background-color: rgb(32, 32, 32);
+    margin: 10px;
+    padding: 20px, 20px, 20px, 20px;
+    border-radius: 10px;
+    
+}
+.starship h1{
+    font-size: 45px;
+    font-style: italic;
+    color: rgb(209, 112, 0);
+}
+@media screen and (max-width: 730px) {
+    .starships {
+        display: flex;
+        flex-flow: column;
+        padding: 0;
+        
+    }
+}
+  

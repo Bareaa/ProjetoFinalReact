@@ -1,13 +1,17 @@
 import { Grid } from '@mui/material'
-import React from 'react'
+import React, { useLayoutEffect, useState } from 'react'
 import { Link, Navigate, useNavigate } from 'react-router-dom'
 import Cabecalho from '../components/Cabecalho'
 import Rodape from '../components/Rodape'
-import {useEffect} from 'react';
+
 
 
 
 export default function Menu(props) {
+
+ 
+
+
   const navigate = useNavigate();
 
   const logoff = () => {
@@ -38,10 +42,7 @@ export default function Menu(props) {
                         Logoff
                     </div>
           </Grid>
-          <div className='corpo'>
-            <br />
-            Corpo
-          </div>
+          
         </Grid>
         <Grid item md={12} xs={12} sm={12}>
           <Rodape />

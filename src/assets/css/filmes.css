@@ -1,0 +1,27 @@
+.conteudoAll{
+  padding-bottom: 70px;
+  position: relative;
+  min-height: 100%;
+}
+
+.filme {
+  background-image: url("../images/fundo.jpg");
+  color: yellow;
+}
+
+.filmes {
+  padding: 50px 0;
+}
+
+.filme {
+  flex-flow: column;
+  padding: 10px 10px 10px;
+  transition: 1.5s;
+  font-family: "Arial", monospace;
+}
+
+
+
+h1, h2, h3 {
+  text-align: center;
+}
